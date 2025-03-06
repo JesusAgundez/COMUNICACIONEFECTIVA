@@ -2,27 +2,44 @@
     padding: 0px;
     margin: 0px;
 }
+h4{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .header{
     display: flex;
     background-color: #ff7092;
     height: 5em;
     position: sticky;
+    top: 0;
     padding: 5px;
+    border-bottom: 5px solid black;
 }
 .title{
     height: 5em;
 }
-.intro{
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+#personalities{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: black;
+}
+#introduction{
     display: flex;
     text-align: left;
-    justify-content: center;
     align-content: center;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url(images/paper-background-1.jpg);
+
 }
-p{
+#definition{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+    padding: 20px;
+    width: 26rem;
 }
