@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    background-color: #ff7092;
+    height: 5em;
+    position: sticky;
+    padding: 5px;
+}
+.title{
+    height: 5em;
+}
+.intro{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
