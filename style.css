@@ -28,7 +28,7 @@ p{
     justify-content: center;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background: black;
+    background: rgb(57, 90, 198);
     gap: 10px;
 }
 .personality-card{
